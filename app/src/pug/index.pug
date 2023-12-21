@@ -1,0 +1,151 @@
+- var url          = '';
+- var local_url    = 'http://192.168.11.3:3000/';
+- var site_name    = '';
+- var og_locale    = 'jp_JP';
+- var og_type      = 'company';
+- var twitter_card = 'summary_large_image';
+- var twitter_site = '@';
+- var title        = '';
+- var description  = '';
+- var og_img       = 'img/ogp.png';
+- var favicon      = 'favicon.ico';
+- var path         = '.'
+
+doctype html
+html(lang="ja")
+  head
+    include ./include/_head
+
+  body
+    main
+      .main-wrapper
+        a(href="").contactBtn.btnMove
+          img(src=path+"/img/page/btn.webp", alt="億り人カレッジに今すぐ申し込む")
+        .FV
+          img(src=path+"/img/page/FV.png", alt="100万円以下の投資で資産100倍を目指す 仮想通貨で勝つべくして勝てる方法を知り 資産100倍・純資産1億円を目指す知識を得る 億り人カレッジ")
+        .voice 
+          h2.section__ttl 
+            img(src=path+"/img/page/title_img_1.webp", alt="お客様の声")
+          .voice__wrapper
+            .voice__content
+              h3.voice__content-ttl 
+                img(src=path+"/img/page/voice_h2_1.webp", alt="実績1")
+              .voice__content-item
+                img(src=path+"/img/page/voice_img_1.webp", alt="2万円の投資で…利益1,300万円達成・利確")
+              p.voice__content-text 
+                |職場の後輩が
+                span.voice__content-text-yellow 2万円の投資
+                |で<br>
+                span.voice__content-text-yellow 利益1300万円
+                |達成、利確
+            .voice__content
+              h3.voice__content-ttl 
+                img(src=path+"/img/page/voice_h2_2.webp", alt="実績2")
+              .voice__content-item
+                img(src=path+"/img/page/voice_img_2.webp", alt="手堅いBTC投資で…原資20万円→100万円達成")
+              p.voice__content-text 
+                |職場の後輩が
+                span.voice__content-text-yellow 1,000円程度の投資
+                |で<br>
+                span.voice__content-text-yellow 20万円
+                |達成、利確
+            .voice__content
+              h3.voice__content-ttl 
+                img(src=path+"/img/page/voice_h2_3.webp", alt="実績3")
+              .voice__content-item
+                img(src=path+"/img/page/voice_img_3.webp", alt="1,000円程度の投資で…20万円達成・利確")
+              p.voice__content-text 
+                |妹が手堅い
+                span.voice__content-text-yellow BTC投資
+                |で<br>
+                |原資
+                span.voice__content-text-yellow 20万円
+                |から
+                span.voice__content-text-yellow 100万円
+                |達成
+        .support 
+          h2.section__ttl 
+            img(src=path+"/img/page/title_img_2.webp", alt="5つのサポート内容")
+          .support__content 
+            .support__content__wrapper
+              h3.support__content-ttl 動画講義
+              img(src=path+"/img/page/support_img_1.webp", alt="")
+              ul 
+                li.support__content-text マインド
+                li.support__content-text 投資リテラシー全般
+                li.support__content-text 
+                  |仮想通貨の知識、買い方、ポートフォリオ <br>
+                  |（具体的な仮想通貨銘柄）
+                li.support__content-text バブル期の動き
+          .support__content 
+            .support__content__wrapper 
+              h3.support__content-ttl エアドロップの情報提供
+              img(src=path+"/img/page/support_img_2.webp", alt="")
+              ul 
+                li.support__content-text 有力なエアドロップされそうなプロジェクト
+                li.support__content-text エアドロップ条件及び収益予想
+                li.support__content-text 具体的な作業手順
+          .support__content
+            .support__content__wrapper
+              h3.support__content-ttl グループチャットによる質疑応答
+              img(src=path+"/img/page/support_img_3.webp", alt="")
+              ul 
+                li.support__content-text 期間中無制限のチャット
+                li.support__content-text ポートフォリオ相談
+                li.support__content-text 投資スタイル相談
+          .support__content 
+            .support__content__wrapper
+              h3.support__content-ttl グループチャットによる情報共有
+              img(src=path+"/img/page/support_img_4.webp", alt="")
+              ul 
+                li.support__content-text 個別銘柄の予想
+                li.support__content-text 仮想通貨市況分析
+                li.support__content-text 最新ニュース共有
+                li.support__content-text 海外情報の提供
+          .support__content 
+            .support__content__wrapper
+              h3.support__content-ttl オンライン勉強会
+              img(src=path+"/img/page/support_img_5.webp", alt="")
+              ul 
+                li.support__content-text 新しいエアドロップの操作手順
+                li.support__content-text 個別銘柄の予想
+                li.support__content-text 仮想通貨市況分析
+                li.support__content-text 最新ニュース共有
+        .period
+          h2.section__ttl 
+            img(src=path+"/img/page/title_img_3.webp", alt="サポート期間")
+          .period-bg 
+            img(src=path+"/img/page/support_bg.webp", alt="")
+          .period__content
+            img(src=path+"/img/page/support_img_6.webp", alt="")
+            p.period__content-text 
+              |次の
+              span.period__content-text-blue 仮想通貨バブル
+              |が終わって<br>
+              span.period__content-text-blue 落ち着く
+              |まで
+        .price
+          h2.section__ttl 
+            img(src=path+"/img/page/title_img_4.webp", alt="価格について")
+          .price-bg 
+            img(src=path+"/img/page/price_bg.png", alt="")
+          .price__content
+            .price__content-textarea
+              p.price__content-textarea-above
+                |銀行振込【一括のみ】<br>
+                |クレジットカード【一括 ・分割】
+              p.price__content-textarea-under
+                |※カード分割は最大24回まで<br>
+                |※分割手数料はカード会社によって異なります
+        .present 
+          h2.section__ttl 
+            img(src=path+"/img/page/title_img_5.webp", alt="購入者特典")
+          .present__content
+            img(src=path+"/img/page/present_bg.webp", alt="01 エアドロップ対策手順完全解説動画10万円相当 02 エアドロップ管理表3万円相当 03 次のバブルでオススメ銘柄15万円相当 04 自己アフィリエイトリスト2万円相当 05 資産管理リスト 06 海外発信者リスト1万円相当 24時間以内のお申し込みで…累計36万円相当！プレゼント！")
+        footer.footer
+          .footer__area
+            .footer__area__content 
+              a(href="https://school.smash-brothers.net/p/specified-commercial" target="_blank") 特商法
+            .footer__area__content 
+              a(href="https://school.smash-brothers.net/p/privacy" target="_blank") プライバシーポリシー
+    include ./include/_script
